@@ -55,7 +55,7 @@ variable "master_disk_size" {
 variable "master_disk_type" {
   description = "What interface type are you using? ie. scsi"
   type        = string
-  default     = "YOUR-MASTER-DISK-SIZE"
+  default     = "YOUR-MASTER-DISK-TYPE"
 }
 
 variable "master_disk_location" {
